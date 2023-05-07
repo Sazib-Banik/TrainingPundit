@@ -1,0 +1,159 @@
+/* ===== google fonts here ===== */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap");
+/* ===== common css here ===== */
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover {
+  text-decoration: none;
+  color: var(--white-color);
+}
+ul,
+ol {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+input:focus {
+  box-shadow: none !important;
+}
+button:focus {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+span,
+label {
+  margin: 0;
+}
+:root {
+  --primary-bgcolor: #0086dc;
+  --secondary-bgcolor: #ff6600;
+  --primary-color: #ffffff;
+  --secondary-color: #6b6b6b;
+}
+.theme-btn {
+  display: inline-block;
+  background-color: var(--primary-bgcolor);
+  padding: 15px 25px;
+  border: 1px solid var(--primary-bgcolor);
+  color: var(--primary-color);
+  border-radius: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: 0.4s;
+}
+.theme-btn:hover {
+  background-color: var(--secondary-bgcolor);
+  border: 1px solid var(--secondary-bgcolor);
+}
+/* 
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+/* ===== top-header_part start ===== */
+#header_part {
+  background-color: var(--secondary-bgcolor);
+  padding: 15px 0;
+}
+.header_left {
+  color: var(--primary-color);
+}
+.header_left span {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.header_left span i {
+  margin-right: 5px;
+}
+.social-link li {
+  display: inline;
+  margin-left: 20px;
+}
+.social-link li a {
+  font-size: 16px;
+  color: #ffffff;
+  transition: 0.4s;
+}
+.social-link li a:hover {
+  color: var(--primary-bgcolor);
+}
+.header-btn {
+  background-color: var(--primary-color);
+  padding: 10px 15px;
+  border-radius: 7px;
+}
+.header-btn a {
+  color: var(--secondary-color) !important;
+  transition: 0.4s;
+}
+.header-btn:hover a {
+  color: var(--secondary-bgcolor) !important;
+}
+/* ===== top-header_part end ===== */
+/* ===== navbar_part start ===== */
+nav.navbar {
+  background-color: var(--primary-color);
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+}
+.logo {
+  width: 120px;
+}
+nav .nav-item .nav-link {
+  color: #6b6b6b;
+  margin-left: 15px;
+  transition: 0.4s;
+}
+nav .nav-item .nav-link.active,
+nav .nav-item .nav-link:hover {
+  color: var(--secondary-bgcolor);
+}
+nav form {
+  margin-left: 15px;
+}
+nav form input:focus {
+  border: 1px solid var(--secondary-bgcolor) !important;
+}
+nav form button.btn {
+  border: 1px solid #ced4da;
+  color: var(--secondary-color);
+  transition: 0.4s;
+}
+nav form button.btn:hover {
+  border: 1px solid var(--secondary-bgcolor);
+  background-color: var(--secondary-bgcolor);
+  color: var(--primary-color);
+}
+/* ===== navbar_part end ===== */
+/* ===== banner-part start ===== */
+#banner_part {
+  min-height: 550px;
+}
+.banner-left h1 {
+  font-size: 72px;
+  color: var(--secondary-color);
+  text-transform: capitalize;
+}
+.banner-left p {
+  font-size: 18px;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+/* ===== banner-part end ===== */
+/* ===== _part start ===== */
+/* ===== _part end ===== */
