@@ -42,6 +42,9 @@ label {
   --primary-color: #ffffff;
   --secondary-color: #6b6b6b;
 }
+.section-padding {
+  padding: 60px 0;
+}
 .theme-btn {
   display: inline-block;
   background-color: var(--primary-bgcolor);
@@ -57,6 +60,7 @@ label {
   background-color: var(--secondary-bgcolor);
   border: 1px solid var(--secondary-bgcolor);
 }
+
 /* 
 font-family: 'Playfair Display', serif;
 font-family: 'Roboto', sans-serif;
@@ -143,11 +147,13 @@ nav form button.btn:hover {
 /* ===== banner-part start ===== */
 #banner_part {
   min-height: 550px;
+  background-color: #fef7ef;
 }
 .banner-left h1 {
   font-size: 72px;
   color: var(--secondary-color);
   text-transform: capitalize;
+  font-family: "Playfair Display", serif;
 }
 .banner-left p {
   font-size: 18px;
@@ -155,5 +161,29 @@ nav form button.btn:hover {
   margin-bottom: 20px;
 }
 /* ===== banner-part end ===== */
+/* ===== statistics_part start ===== */
+.stat-box {
+  cursor: pointer;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 134, 220, 0.35) 0px 5px 10px;
+  transition: 0.4s;
+}
+.stat-box:hover {
+  transform: scale(1.05);
+}
+.stat-box .number {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Playfair Display", serif;
+  margin-top: -20px;
+}
+.stat-box h3 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+/* ===== statistics_part end ===== */
 /* ===== _part start ===== */
 /* ===== _part end ===== */
