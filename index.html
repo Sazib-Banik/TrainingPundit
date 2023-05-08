@@ -11,6 +11,11 @@
     <link rel="stylesheet" href="assets/css/font.all.min.css" />
     <!-- ===== bootstrap link ===== -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- ===== swiperjs link ===== -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <!-- ===== main css link ===== -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- ===== responsive css link ===== -->
@@ -44,8 +49,14 @@
                 <li>
                   <a href="#"><i class="fa-brands fa-youtube"></i></a>
                 </li>
-                <li class="header-btn"><a href="#"><i class="fa-solid fa-arrow-right-to-bracket"></i> Login</a></li>
-                <li class="header-btn"><a href="#"><i class="fa-solid fa-user-plus"></i> Signup</a></li>
+                <li class="header-btn">
+                  <a href="#"
+                    ><i class="fa-solid fa-arrow-right-to-bracket"></i> Login</a
+                  >
+                </li>
+                <li class="header-btn">
+                  <a href="#"><i class="fa-solid fa-user-plus"></i> Signup</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -57,9 +68,17 @@
     <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="assets/image/logo.png" alt="logo-image" class="logo">
+          <img src="assets/image/logo.png" alt="logo-image" class="logo" />
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -70,22 +89,23 @@
             <li class="nav-item">
               <a class="nav-link" href="#">About Us</a>
             </li>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Courses</a>
-            </li>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Trainers</a>
             </li>
-            </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact Us</a>
             </li>
-            
           </ul>
           <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
             <button class="btn" type="submit">Search</button>
           </form>
         </div>
@@ -94,18 +114,34 @@
     <!-- ===== navbar-part end ===== -->
     <!-- ===== banner-part start ===== -->
     <main id="banner_part" class="d-flex align-items-center">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="banner-left">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/image/banner-1.jpg" alt="" />
+            <div class="overlay">
               <h1>Start your career with certification</h1>
-              <p>Training Pandit provides quality skill development training with a host of experienced mentors.</p>
-              <a href="#" class="theme-btn">view all courses <i class="fa-solid fa-arrow-right"></i></a>
+              <p>
+                Training Pandit provides quality skill development training with
+                a host of experienced mentors.
+              </p>
+              <span>
+                <a href="#" class="theme-btn">start learning</a>
+                <a href="#" class="theme-btn ms-2">view all courses</a>
+              </span>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="banner-right">
-              <img src="assets/image/banner-img.png" alt="banner-img" class="img-fluid w-100">
+          <div class="swiper-slide">
+            <img src="assets/image/banner-2.jpg" alt="" />
+            <div class="overlay">
+              <h1>Start your career with certification</h1>
+              <p>
+                Training Pandit provides quality skill development training with
+                a host of experienced mentors.
+              </p>
+              <span>
+                <a href="#" class="theme-btn">start learning</a>
+                <a href="#" class="theme-btn ms-2">view all courses</a>
+              </span>
             </div>
           </div>
         </div>
@@ -144,6 +180,304 @@
       </div>
     </section>
     <!-- ===== statistics-part end ===== -->
+    <!-- ===== setyourgoal-part start ===== -->
+    <section id="your-goal" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>What do you want to learn?</h2>
+          </div>
+          <div class="col-md-3">
+            <div class="goal-item text-center">
+              <div class="goal-item-img">
+                <img
+                  src="assets/image/web-design.png"
+                  alt="web-design-icon"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="goal-item-content">
+                <h4>Web Design and development</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="goal-item text-center">
+              <div class="goal-item-img">
+                <img
+                  src="assets/image/sales.png"
+                  alt="web-design-icon"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="goal-item-content">
+                <h4>Business and Marketing</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="goal-item text-center">
+              <div class="goal-item-img">
+                <img
+                  src="assets/image/illustration.png"
+                  alt="web-design-icon"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="goal-item-content">
+                <h4>Creative Design</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="goal-item text-center">
+              <div class="goal-item-img">
+                <img
+                  src="assets/image/certificate.png"
+                  alt="web-design-icon"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="goal-item-content">
+                <h4>certification</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== setyourgoal-part end ===== -->
+    <!-- ===== top-course-part start ===== -->
+    <section id="top-course-part" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>Our Top Course</h2>
+          </div>
+          <div class="col-md-3">
+            <div class="single-course">
+              <div class="course-img">
+                <img
+                  src="assets/image/mern.jpg"
+                  alt="mern-pic"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="course-details">
+                <h3>
+                  full stack development with
+                  <span class="text-uppercase">MERN</span>
+                </h3>
+                <p>Trainer Name</p>
+                <span
+                  ><i class="fa-solid fa-bangladeshi-taka-sign"></i> 6500</span
+                >
+                <span class="offer"
+                  ><i class="fa-solid fa-bangladeshi-taka-sign"></i> 10000</span
+                >
+                <div class="row">
+                  <div class="col">25 Hours</div>
+                  <div class="col">25 lecture</div>
+                  <div class="col">Beginner</div>
+                </div>
+                <div class="course-btn-group">
+                  <a href="#" class="course-btn">view details</a>
+                  <a href="#" class="course-btn ms-3">buy course</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-course">
+              <div class="course-img">
+                <img
+                  src="assets/image/php.jpg"
+                  alt="mern-pic"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="course-details">
+                <h3>
+                  full stack development with
+                  <span class="text-uppercase">PHP & LARAVEL</span>
+                </h3>
+                <p>Trainer Name</p>
+                <span
+                  ><i class="fa-solid fa-bangladeshi-taka-sign"></i> 6000</span
+                >
+                <span class="offer"
+                  ><i class="fa-solid fa-bangladeshi-taka-sign"></i> 9500</span
+                >
+                <div class="row">
+                  <div class="col">25 Hours</div>
+                  <div class="col">25 lecture</div>
+                  <div class="col">Beginner</div>
+                </div>
+                <div class="course-btn-group">
+                  <a href="#" class="course-btn">view details</a>
+                  <a href="#" class="course-btn ms-3">buy course</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-course">
+              <div class="course-img">
+                <img
+                  src="assets/image/graphic.jpg"
+                  alt="mern-pic"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="course-details">
+                <h3>Graphic Design</h3>
+                <p>Trainer Name</p>
+                <span
+                  ><i class="fa-solid fa-bangladeshi-taka-sign"></i> 6000</span
+                >
+                <span class="offer"
+                  ><i class="fa-solid fa-bangladeshi-taka-sign"></i> 10000</span
+                >
+                <div class="row">
+                  <div class="col">25 Hours</div>
+                  <div class="col">25 lecture</div>
+                  <div class="col">Beginner</div>
+                </div>
+                <div class="course-btn-group">
+                  <a href="#" class="course-btn">view details</a>
+                  <a href="#" class="course-btn ms-3">buy course</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-course">
+              <div class="course-img">
+                <img
+                  src="assets/image/vue.webp"
+                  alt="mern-pic"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="course-details">
+                <h3>VUE JS</h3>
+                <p>Trainer Name</p>
+                <span
+                  ><i class="fa-solid fa-bangladeshi-taka-sign"></i> 6500</span
+                >
+                <span class="offer"
+                  ><i class="fa-solid fa-bangladeshi-taka-sign"></i> 10000</span
+                >
+                <div class="row">
+                  <div class="col">25 Hours</div>
+                  <div class="col">25 lecture</div>
+                  <div class="col">Beginner</div>
+                </div>
+                <div class="course-btn-group">
+                  <a href="#" class="course-btn">view details</a>
+                  <a href="#" class="course-btn ms-3">buy course</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== top-course-part end ===== -->
+    <!-- ===== free-seminar-part start ===== -->
+    <section id="free-seminar-part" class="section-padding">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6">
+            <div class="seminar-left-sec">
+              <h3>Attend free online seminars to get proper guidance</h3>
+              <p>
+                Attend our free seminars to get the right guidance to build a
+                successful career. This seminar will clear all your confusion
+                through question and answer.
+              </p>
+              <a href="#" class="theme-btn">start learning</a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="seminar-right-sec">
+              <img src="assets/image/seminer.jpg" alt="" class="img-fluid" />
+              <div class="play-btn">
+                <i class="fa-regular fa-circle-play"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== free-seminar-part end ===== -->
+    <!-- ===== top-category-part start ===== -->
+    <section id="top-category" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>Our Top Category Courses</h2>
+          </div>
+          <div class="col-md-3">
+            <div class="goal-item text-center">
+              <div class="goal-item-img">
+                <img
+                  src="assets/image/web-design.png"
+                  alt="web-design-icon"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="goal-item-content">
+                <h4>Web Design</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="goal-item text-center">
+              <div class="goal-item-img">
+                <img
+                  src="assets/image/web-design.png"
+                  alt="web-design-icon"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="goal-item-content">
+                <h4>Web Development</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="goal-item text-center">
+              <div class="goal-item-img">
+                <img
+                  src="assets/image/sales.png"
+                  alt="web-design-icon"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="goal-item-content">
+                <h4>SEO and Degital Marketing</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="goal-item text-center">
+              <div class="goal-item-img">
+                <img
+                  src="assets/image/illustration.png"
+                  alt="web-design-icon"
+                  class="img-fluid"
+                />
+              </div>
+              <div class="goal-item-content">
+                <h4>Graphic Design</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ===== top-category-part end ===== -->
     <!-- ===== footer-part start ===== -->
     <footer id="footer_part"></footer>
     <!-- ===== footer-part end ===== -->
@@ -152,7 +486,11 @@
     <script src="assets/js/jquery.min.js"></script>
     <!-- ===== bootstrap js link ===== -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- ===== swiper js link ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <!-- ===== main js link ===== -->
     <script src="assets/js/main.js"></script>
   </body>
 </html>
+<!-- ===== -part start ===== -->
+<!-- ===== -part end ===== -->

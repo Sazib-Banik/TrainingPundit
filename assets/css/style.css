@@ -48,7 +48,7 @@ label {
 .theme-btn {
   display: inline-block;
   background-color: var(--primary-bgcolor);
-  padding: 15px 25px;
+  padding: 12px 25px;
   border: 1px solid var(--primary-bgcolor);
   color: var(--primary-color);
   border-radius: 20px;
@@ -145,19 +145,33 @@ nav form button.btn:hover {
 }
 /* ===== navbar_part end ===== */
 /* ===== banner-part start ===== */
-#banner_part {
-  min-height: 550px;
-  background-color: #fef7ef;
+#banner_part .swiper-slide {
+  position: relative;
 }
-.banner-left h1 {
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(9, 30, 62, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #ffffff;
+}
+
+.overlay h1 {
   font-size: 72px;
-  color: var(--secondary-color);
+  color: var(--primary-color);
   text-transform: capitalize;
   font-family: "Playfair Display", serif;
+  margin-bottom: 20px;
 }
-.banner-left p {
+.overlay p {
   font-size: 18px;
-  color: var(--secondary-color);
+  color: var(--primary-color);
   margin-bottom: 20px;
 }
 /* ===== banner-part end ===== */
@@ -185,5 +199,107 @@ nav form button.btn:hover {
   text-transform: capitalize;
 }
 /* ===== statistics_part end ===== */
+/* ===== setyourgoal-part_part start ===== */
+.goal-item {
+  padding: 30px 40px;
+  border: 1px solid var(--primary-bgcolor);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 35px;
+  min-height: 205px;
+  transition: 0.4s;
+}
+.goal-item .goal-item-img {
+  width: 70px;
+  margin-bottom: 15px;
+}
+.goal-item:hover {
+  background-color: var(--primary-bgcolor);
+  color: var(--primary-color);
+}
+/* ===== setyourgoal-part_part end ===== */
+/* ===== top-course_part start ===== */
+.single-course {
+  border: 1px solid var(--primary-bgcolor);
+  margin-top: 35px;
+  min-height: 362px;
+  transition: 0.4s;
+}
+.single-course:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#top-course-part .course-details {
+  padding: 10px 12px;
+}
+#top-course-part .course-details h3 {
+  text-transform: capitalize;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+#top-course-part .course-details p {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 5px;
+}
+.offer {
+  text-decoration: line-through;
+  color: var(--secondary-color);
+  margin-left: 7px;
+  margin-bottom: 5px;
+}
+.course-btn {
+  border: 1px solid var(--primary-bgcolor);
+  background-color: var(--primary-bgcolor);
+  color: #ffffff;
+  padding: 5px 7px;
+  text-transform: capitalize;
+}
+.course-btn:hover {
+  background-color: var(--secondary-bgcolor);
+  border: 1px solid var(--primary-bgcolor);
+}
+.course-btn-group {
+  margin-top: 5px;
+}
+/* ===== top-course_part end ===== */
+/* ===== free-seminar_part start ===== */
+#free-seminar-part {
+  background-color: #fffbee;
+}
+.seminar-left-sec h3 {
+  font-size: 48px;
+  margin-bottom: 7px;
+}
+.seminar-left-sec p {
+  font-size: 18px;
+  color: var(--secondary-color);
+  margin-bottom: 7px;
+}
+.seminar-right-sec {
+  position: relative;
+}
+.seminar-right-sec .play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: var(--primary-bgcolor);
+}
+/* ===== free-seminar_part end ===== */
+/* ===== top-category_part start ===== */
+
+/* ===== top-category_part end ===== */
+/* ===== _part start ===== */
+/* ===== _part end ===== */
+/* ===== _part start ===== */
+/* ===== _part end ===== */
+/* ===== _part start ===== */
+/* ===== _part end ===== */
+/* ===== _part start ===== */
+/* ===== _part end ===== */
 /* ===== _part start ===== */
 /* ===== _part end ===== */
