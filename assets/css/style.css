@@ -296,6 +296,7 @@ nav form button.btn:hover {
 /* ===== success-story_part start ===== */
 #success-part {
   background-color: #fffbee;
+  clear: both;
 }
 .success-part-left h3 {
   font-size: 48px;
@@ -323,8 +324,25 @@ nav form button.btn:hover {
   color: var(--secondary-color);
 }
 /* ===== success-story_part end ===== */
-/* ===== _part start ===== */
-/* ===== _part end ===== */
+/* ===== become-instructor_part start ===== */
+.become-instructor {
+  background-image: url(../image/instructor1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.instructor-content {
+  padding: 60px 0;
+}
+.instructor-content h2 {
+  font-size: 42px;
+  color: var(--primary-color);
+}
+.instructor-content p {
+  color: var(--primary-color);
+  margin: 15px 0;
+}
+/* ===== become-instructor_part end ===== */
 /* ===== _part start ===== */
 /* ===== _part end ===== */
 /* ===== _part start ===== */
