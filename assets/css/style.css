@@ -84,16 +84,16 @@ body {
 .header_left span i {
   margin-right: 5px;
 }
-.social-link li {
+.header_right .social-link li {
   display: inline;
   margin-left: 20px;
 }
-.social-link li a {
+.header_right .social-link li a {
   font-size: 16px;
   color: #ffffff;
   transition: 0.4s;
 }
-.social-link li a:hover {
+.header_right .social-link li a:hover {
   color: var(--primary-bgcolor);
 }
 .header-btn {
@@ -379,7 +379,79 @@ nav form button.btn:hover {
   color: var(--secondary-bgcolor);
 }
 /* ===== news-events_part end ===== */
-/* ===== _part start ===== */
-/* ===== _part end ===== */
+/* ===== footer_part start ===== */
+#footer_part {
+  background-color: var(--primary-bgcolor);
+}
+#footer_part .footer-logo a img {
+  width: 120px;
+}
+#footer_part .footer-logo p {
+  color: var(--primary-color);
+  margin-top: 15px;
+  font-size: 18px;
+}
+.address-part h4,
+.footer-links h4 {
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.footer-links ul li {
+  margin: 10px 0;
+  margin-left: 20px;
+  position: relative;
+  transition: 0.4s;
+}
+.footer-links ul li::before {
+  position: absolute;
+  content: "\f101";
+  font-family: "Font Awesome 6 free";
+  font-weight: 900;
+  left: -20px;
+  color: #ffffff;
+}
+.footer-links ul li a {
+  color: #ffffff;
+  font-size: 18px;
+}
+.footer-links ul li:hover a {
+  color: #ff6600;
+  transform: scale(1.1);
+}
+.footer-links ul li:hover::before {
+  color: #ff6600;
+}
+.address-part i,
+.address-part p {
+  font-size: 18px;
+  color: #ffffff;
+}
+.footer-logo .social-link {
+  margin-top: 15px;
+}
+.footer-logo .social-link i {
+  font-size: 24px;
+}
+.footer-logo .social-link li {
+  background-color: #6b6b6b;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+}
+.footer-logo .social-link li a {
+  margin-top: 8px;
+  color: #ffffff;
+}
+.footer-logo .social-link li:hover {
+  background-color: var(--secondary-bgcolor);
+  color: #ffffff !important ;
+}
+.footer-logo .social-link:first-child {
+  margin-left: 0;
+}
+/* ===== footer_part end ===== */
 /* ===== _part start ===== */
 /* ===== _part end ===== */
