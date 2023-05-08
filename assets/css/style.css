@@ -417,7 +417,6 @@ nav form button.btn:hover {
 }
 .footer-links ul li:hover a {
   color: #ff6600;
-  transform: scale(1.1);
 }
 .footer-links ul li:hover::before {
   color: #ff6600;
@@ -453,5 +452,15 @@ nav form button.btn:hover {
   margin-left: 0;
 }
 /* ===== footer_part end ===== */
+/* ===== _part start ===== */
+#copyright-part p a {
+  color: #ff6600;
+}
+.partners img {
+  height: 20px;
+}
+/* ===== _part end ===== */
+/* ===== _part start ===== */
+/* ===== _part end ===== */
 /* ===== _part start ===== */
 /* ===== _part end ===== */
