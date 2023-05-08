@@ -343,8 +343,42 @@ nav form button.btn:hover {
   margin: 15px 0;
 }
 /* ===== become-instructor_part end ===== */
-/* ===== _part start ===== */
-/* ===== _part end ===== */
+/* ===== news-events_part start ===== */
+.news-box {
+  margin-top: 35px;
+  transition: 0.4s;
+}
+.news-box:hover {
+  transform: scale(1.02);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.news-box-content {
+  padding: 12px 15px;
+}
+.news-box-content span {
+  color: var(--secondary-color);
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.news-box-content h5 {
+  color: var(--secondary-color);
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+.news-box-content p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: var(--secondary-color);
+}
+.news-box-content a {
+  color: var(--primary-bgcolor);
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+.news-box-content a:hover {
+  color: var(--secondary-bgcolor);
+}
+/* ===== news-events_part end ===== */
 /* ===== _part start ===== */
 /* ===== _part end ===== */
 /* ===== _part start ===== */
