@@ -212,7 +212,7 @@ nav form button.btn:hover {
   transition: 0.4s;
 }
 .goal-item .goal-item-img {
-  width: 70px;
+  width: 60px;
   margin-bottom: 15px;
 }
 .goal-item:hover {
@@ -276,7 +276,7 @@ nav form button.btn:hover {
 .seminar-left-sec p {
   font-size: 18px;
   color: var(--secondary-color);
-  margin-bottom: 7px;
+  margin-bottom: 13px;
 }
 .seminar-right-sec {
   position: relative;
@@ -293,8 +293,36 @@ nav form button.btn:hover {
 /* ===== top-category_part start ===== */
 
 /* ===== top-category_part end ===== */
-/* ===== _part start ===== */
-/* ===== _part end ===== */
+/* ===== success-story_part start ===== */
+#success-part {
+  background-color: #fffbee;
+}
+.success-part-left h3 {
+  font-size: 48px;
+  margin-bottom: 7px;
+}
+.success-part-left p {
+  font-size: 18px;
+  color: var(--secondary-color);
+  margin-bottom: 13px;
+}
+.review-box {
+  padding: 20px 35px;
+}
+.student-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.student-review h5 {
+  font-size: 24px;
+  color: var(--secondary-color);
+  margin: 5px 0;
+}
+.student-review p {
+  color: var(--secondary-color);
+}
+/* ===== success-story_part end ===== */
 /* ===== _part start ===== */
 /* ===== _part end ===== */
 /* ===== _part start ===== */
