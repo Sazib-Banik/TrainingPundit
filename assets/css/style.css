@@ -369,7 +369,9 @@ nav form button.btn:hover {
 /* ===== become-instructor_part end ===== */
 /* ===== top-instructor_part start ===== */
 #top-instructor {
+  background-color: #fffbee;
 }
+
 /* ===== top-instructor_part end ===== */
 /* ===== news-events_part start ===== */
 .news-box {

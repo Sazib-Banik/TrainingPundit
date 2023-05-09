@@ -11,11 +11,13 @@
     <link rel="stylesheet" href="assets/css/font.all.min.css" />
     <!-- ===== bootstrap link ===== -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <!-- ===== swiperjs link ===== -->
+    <!-- ===== swiperjs css link ===== -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
     />
+    <!-- ===== venoboxjs css link ===== -->
+    <link rel="stylesheet" href="assets/css/venobox.min.css" />
     <!-- ===== main css link ===== -->
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- ===== responsive css link ===== -->
@@ -405,9 +407,14 @@
           <div class="col-md-6">
             <div class="seminar-right-sec">
               <img src="assets/image/seminer.jpg" alt="" class="img-fluid" />
-              <div class="play-btn">
-                <i class="fa-regular fa-circle-play"></i>
-              </div>
+              <a
+                class="my-video-links venobox"
+                data-autoplay="true"
+                data-vbtype="video"
+                href="https://www.youtube.com/watch?v=S8kNZVU9qg0"
+                ><span class="play-btn">
+                  <i class="fa-regular fa-circle-play"></i> </span
+              ></a>
             </div>
           </div>
         </div>
@@ -693,7 +700,6 @@
           </div>
         </div>
       </div>
-      <div id="particles-js"></div>
     </section>
     <!-- ===== top-instructor-part end ===== -->
     <!-- ===== news-events-part start ===== -->
@@ -998,6 +1004,8 @@
     <!-- ===== partical js link ===== -->
     <script src="assets/js/particles.js"></script>
     <script src="assets/js/app.js"></script>
+    <!-- ===== venobox js link ===== -->
+    <script src="assets/js/venobox.min.js"></script>
     <!-- ===== main js link ===== -->
     <script src="assets/js/main.js"></script>
   </body>

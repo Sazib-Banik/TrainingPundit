@@ -32,3 +32,7 @@ var swiper = new Swiper(".mySwiperOne", {
         prevEl: ".swiper-button-prev",
       },
 });
+// venobox active
+new VenoBox({
+  selector: '.venobox'
+});
