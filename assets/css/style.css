@@ -176,6 +176,16 @@ nav form button.btn:hover {
 }
 /* ===== banner-part end ===== */
 /* ===== statistics_part start ===== */
+#statistics_part {
+  background-color: #0086dc;
+}
+#particles-js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
 .stat-box {
   cursor: pointer;
   padding: 30px 40px;
@@ -342,7 +352,25 @@ nav form button.btn:hover {
   color: var(--primary-color);
   margin: 15px 0;
 }
+.card-button a {
+  font-size: 18px;
+  margin-top: 30px;
+  padding: 15px 20px;
+  background-color: var(--primary-bgcolor);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-bgcolor);
+  border-radius: 20px;
+  transition: 0.4s;
+}
+.card-button a:hover {
+  background-color: var(--secondary-bgcolor);
+  border: 1px solid var(--secondary-bgcolor);
+}
 /* ===== become-instructor_part end ===== */
+/* ===== top-instructor_part start ===== */
+#top-instructor {
+}
+/* ===== top-instructor_part end ===== */
 /* ===== news-events_part start ===== */
 .news-box {
   margin-top: 35px;
@@ -379,6 +407,13 @@ nav form button.btn:hover {
   color: var(--secondary-bgcolor);
 }
 /* ===== news-events_part end ===== */
+/* ===== partners_part start ===== */
+#partners-part img {
+  height: 60px !important;
+}
+/* ===== partners_part end ===== */
+/* ===== _part start ===== */
+/* ===== _part end ===== */
 /* ===== footer_part start ===== */
 #footer_part {
   background-color: var(--primary-bgcolor);
@@ -451,16 +486,15 @@ nav form button.btn:hover {
 .footer-logo .social-link:first-child {
   margin-left: 0;
 }
+.address-part address {
+  color: #ffffff;
+}
 /* ===== footer_part end ===== */
-/* ===== _part start ===== */
+/* ===== copyright_part start ===== */
 #copyright-part p a {
   color: #ff6600;
 }
 .partners img {
   height: 20px;
 }
-/* ===== _part end ===== */
-/* ===== _part start ===== */
-/* ===== _part end ===== */
-/* ===== _part start ===== */
-/* ===== _part end ===== */
+/* ===== copyright_part end ===== */
