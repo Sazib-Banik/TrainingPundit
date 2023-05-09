@@ -178,6 +178,8 @@ nav form button.btn:hover {
 /* ===== statistics_part start ===== */
 #statistics_part {
   background-color: #0086dc;
+  position: relative;
+  z-index: 1;
 }
 #particles-js {
   position: absolute;
@@ -185,12 +187,13 @@ nav form button.btn:hover {
   left: 0;
   bottom: 0;
   right: 0;
+  z-index: -1;
 }
 .stat-box {
   cursor: pointer;
   padding: 30px 40px;
   border-radius: 15px;
-  box-shadow: rgba(0, 134, 220, 0.35) 0px 5px 10px;
+  box-shadow: rgba(252, 252, 252, 0.35) 0px 5px 10px;
   transition: 0.4s;
 }
 .stat-box:hover {
@@ -201,6 +204,7 @@ nav form button.btn:hover {
   font-weight: 600;
   font-family: "Playfair Display", serif;
   margin-top: -20px;
+  color: #ffffff;
 }
 .stat-box h3 {
   font-size: 20px;
@@ -508,6 +512,8 @@ nav form button.btn:hover {
 #contact-form-part {
   background-color: #443dad;
   color: #ffffff;
+  position: relative;
+  z-index: 1;
 }
 #contact-form-part h2 {
   margin-bottom: 35px;

@@ -36,3 +36,8 @@ var swiper = new Swiper(".mySwiperOne", {
 new VenoBox({
   selector: '.venobox'
 });
+// counter js active
+$('.counter').counterUp({
+  delay: 10,
+  time: 2500
+});
