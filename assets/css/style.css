@@ -48,7 +48,7 @@ label {
 .theme-btn {
   display: inline-block;
   background-color: var(--primary-bgcolor);
-  padding: 12px 25px;
+  padding: 8px 25px;
   border: 1px solid var(--primary-bgcolor);
   color: var(--primary-color);
   border-radius: 20px;
@@ -421,12 +421,12 @@ nav form button.btn:hover {
   background-color: var(--primary-bgcolor);
 }
 #footer_part .footer-logo a img {
-  width: 120px;
+  width: 150px;
 }
 #footer_part .footer-logo p {
   color: var(--primary-color);
   margin-top: 15px;
-  font-size: 18px;
+  font-size: 16px;
 }
 .address-part h4,
 .footer-links h4 {
@@ -500,3 +500,36 @@ nav form button.btn:hover {
   height: 20px;
 }
 /* ===== copyright_part end ===== */
+/* 
+  ===== contact page css start =====
+*/
+
+/* ===== contact-form_part start ===== */
+#contact-form-part {
+  background-color: #443dad;
+  color: #ffffff;
+}
+#contact-form-part h2 {
+  margin-bottom: 35px;
+}
+/* ===== contact-form_part end ===== */
+/* ===== office-part_part start ===== */
+#office-part {
+  margin: 60px 0;
+}
+#office-part .office-details-box {
+  background-color: var(--primary-bgcolor);
+  padding: 60px 80px;
+  color: #ffffff;
+  border-radius: 15px;
+}
+#office-part .office-details-box h4 {
+  margin-bottom: 10px;
+}
+/* ===== office-part_part end ===== */
+/* ===== _part start ===== */
+
+/* ===== _part end ===== */
+/* ===== _part start ===== */
+
+/* ===== _part end ===== */
