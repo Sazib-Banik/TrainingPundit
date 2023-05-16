@@ -233,6 +233,24 @@ nav form button.btn:hover {
   background-color: var(--primary-bgcolor);
   color: var(--primary-color);
 }
+
+.owl-prev {
+  position: absolute;
+  left: 20px;
+  bottom: 28%;
+}
+.owl-next {
+  position: absolute;
+  right: 20px;
+  bottom: 28%;
+}
+.owl-prev span,
+.owl-next span {
+  font-size: 60px;
+  color: var(--secondary-bgcolor);
+  width: 40px;
+  display: inline-block;
+}
 /* ===== setyourgoal-part_part end ===== */
 /* ===== top-course_part start ===== */
 .single-course {
@@ -312,9 +330,6 @@ nav form button.btn:hover {
   color: var(--primary-bgcolor);
 }
 /* ===== free-seminar_part end ===== */
-/* ===== top-category_part start ===== */
-
-/* ===== top-category_part end ===== */
 /* ===== success-story_part start ===== */
 #success-part {
   background-color: #fffbee;
@@ -331,6 +346,8 @@ nav form button.btn:hover {
 }
 .review-box {
   padding: 20px 35px;
+  background-color: var(--primary-bgcolor);
+  border-radius: 30px;
 }
 .student-img img {
   width: 100px;
@@ -339,13 +356,38 @@ nav form button.btn:hover {
 }
 .student-review h5 {
   font-size: 24px;
-  color: var(--secondary-color);
+  color: var(--primary-color);
   margin: 5px 0;
 }
 .student-review p {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 /* ===== success-story_part end ===== */
+/* ===== feature-course_part start ===== */
+.feature-item-img {
+  background-color: #fff;
+}
+.feature-item {
+  padding: 30px 40px;
+  border: 1px solid var(--primary-bgcolor);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 35px;
+  min-height: 205px;
+  transition: 0.4s;
+}
+.feature-item .feature-item-img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+.feature-item:hover {
+  background-color: var(--primary-bgcolor);
+  color: var(--primary-color);
+}
+/* ===== feature-course_part end ===== */
 /* ===== become-instructor_part start ===== */
 .become-instructor {
   background-image: url(../image/instructor1.jpg);
@@ -593,14 +635,6 @@ nav form button.btn:hover {
 .message button:hover {
   color: var(--secondary-bgcolor) !important;
 }
-/* .subscribe text {
-  padding: 5px 8px;
-  border: none;
-  outline: none;
-  border-radius: 7px;
-  width: 80%;
-  font-size: 16px;
-} */
 .address-part textarea {
   /* height: 34px; */
   padding: 5px 8px;
@@ -649,9 +683,6 @@ nav form button.btn:hover {
   margin-bottom: 10px;
 }
 /* ===== office-part_part end ===== */
-/* ===== _part start ===== */
-
-/* ===== _part end ===== */
 /* Instructor page start*/
 #top-instructors {
   background-color: #05a5be;
@@ -791,3 +822,6 @@ nav form button.btn:hover {
   }
 }
 /* Instructor details page end*/
+/* ===== top-category_part start ===== */
+
+/* ===== top-category_part end ===== */
