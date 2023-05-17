@@ -1,3 +1,4 @@
+//banner carousel
 var swiper = new Swiper(".mySwiper", {
   spaceBetween: 30,
   centeredSlides: true,
@@ -35,34 +36,34 @@ var swiper = new Swiper(".mySwiperOne", {
   },
 });
 // top-categorie
-var swiper = new Swiper(".top-category", {
-  slidesPerView: 4,
-  spaceBetween: 20,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
+// var swiper = new Swiper(".top-category", {
+//   slidesPerView: 4,
+//   spaceBetween: 20,
+//   loop: true,
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+// });
 
 // feature-categories
-var swiper = new Swiper(".feature-categories", {
-  slidesPerView: 4,
-  spaceBetween: 20,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-});
+// var swiper = new Swiper(".feature-categories", {
+//   slidesPerView: 4,
+//   spaceBetween: 20,
+//   loop: true,
+//   pagination: {
+//     el: ".swiper-pagination",
+//     clickable: true,
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
+// });
 // venobox active
 new VenoBox({
   selector: ".venobox",
@@ -73,25 +74,25 @@ $(".counter").counterUp({
   time: 2500,
 });
 //owl-carousel active
-// $(".owl-carousel").owlCarousel({
-//   loop: true,
-//   margin: 10,
-//   nav: true,
-//   autoplay: true,
-//   autoplayTimeout: 1000,
-//   autoplayHoverPause: true,
-//   responsive: {
-//     0: {
-//       items: 1,
-//     },
-//     600: {
-//       items: 3,
-//     },
-//     1000: {
-//       items: 5,
-//     },
-//   },
-// });
+$(".instructor-carousel").owlCarousel({
+  loop: true,
+  margin: 10,
+  nav: false,
+  autoplay: true,
+  autoplayTimeout: 1000,
+  autoplayHoverPause: true,
+  responsive: {
+    0: {
+      items: 1,
+    },
+    600: {
+      items: 3,
+    },
+    1000: {
+      items: 5,
+    },
+  },
+});
 $(".your-goal").owlCarousel({
   
   margin: 7,
